@@ -37,7 +37,7 @@ except Exception:
     long_desc = None
 
 setup(
-    name="mongoengine_goodjson",
+    name="mongoengine_goodjson_v2",
     version="1.1.9",
     description=desc,
     long_description=long_desc,
