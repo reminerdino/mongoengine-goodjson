@@ -148,7 +148,7 @@ class GoodJSONEncoder(json.JSONEncoder):
             key: self.__check(value) for (key, value) in o.items()
         }), **kwargs)
 
-    @encode.register(collections.Iterable)
+    @encode.register(collections.abc.Iterable)
     def __encode_list(self, o, **kwargs):
         return super(GoodJSONEncoder, self).encode([
             self.__check(value) for value in o

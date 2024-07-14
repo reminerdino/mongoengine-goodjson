@@ -38,7 +38,7 @@ except Exception:
 
 setup(
     name="mongoengine_goodjson",
-    version=version,
+    version="1.1.9",
     description=desc,
     long_description=long_desc,
     long_description_content_type="text/markdown",
@@ -46,11 +46,11 @@ setup(
     include_package_data=True,
     install_requires=dependencies,
     zip_safe=False,
-    author="Hiroaki Yamamoto",
-    author_email="hiroaki@hysoftware.net",
+    author="Hiroaki Yamamoto, edited by Iman Ashoori",
+    author_email="imanashoorii.77@gmail.com",
     license="MIT",
     keywords="json mongoengine mongodb",
-    url="https://github.com/hiroaki-yamamoto/mongoengine-goodjson",
+    url="https://github.com/reminerdino/mongoengine-goodjson",
     classifiers=[
         "Development Status :: 4 - Beta",
         "License :: OSI Approved :: MIT License",
